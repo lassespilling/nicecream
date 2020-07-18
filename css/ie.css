@@ -1,0 +1,23 @@
+.grid {
+    display: flex !important;
+    flex-direction: row;
+}
+
+/* Small devices */
+@media only screen and (max-width: 480px) {
+}
+
+/* Both small & Medium devices */
+@media only screen and (max-width:768px) {
+    .grid {
+        flex-direction: column !important;
+    }
+}
+/* Medium devices */
+@media only screen and (min-width:481px) and (max-width:768px) {
+}
+
+/* Large devices */
+@media only screen and (min-width: 769px) {
+    
+}
